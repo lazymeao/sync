@@ -84,7 +84,7 @@ do_fox_81() {
 	TWRP_BRANCH="twrp-8.1";
 	DEVICE_BRANCH="android-8.1";
 	test_build_device="kenzo";
-	MIN_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git";
+	MIN_MANIFEST="https://github.com/lazymeao/platform_manifest_twrp_omni.git";
 	[ -z "$MANIFEST_DIR" ] && MANIFEST_DIR="$BASE_DIR/$FOX_DEF_BRANCH";
 }
 
@@ -95,7 +95,7 @@ do_fox_71() {
 	TWRP_BRANCH="twrp-7.1";
 	DEVICE_BRANCH="android-7.1";
 	test_build_device="hermes";
-	MIN_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git";
+	MIN_MANIFEST="https://github.com/lazymeao/platform_manifest_twrp_omni.git";
 	[ -z "$MANIFEST_DIR" ] && MANIFEST_DIR="$BASE_DIR/$FOX_DEF_BRANCH";
 }
 
@@ -106,7 +106,7 @@ do_fox_60() {
 	TWRP_BRANCH="twrp-6.0";
 	DEVICE_BRANCH="android-6.0";
 	test_build_device="klte";
-	MIN_MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git";
+	MIN_MANIFEST="https://github.com/lazymeao/platform_manifest_twrp_omni.git";
 	[ -z "$MANIFEST_DIR" ] && MANIFEST_DIR="$BASE_DIR/$FOX_DEF_BRANCH";
 }
 
